@@ -1,5 +1,4 @@
-print('Добро пожаловать в калькулятор!')
-# calculator.py
+
 
 def main():
     print("Добро пожаловать в калькулятор!")
@@ -47,3 +46,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+except KeyboardInterrupt:
+    print("\nРабота калькулятора прекращена")
